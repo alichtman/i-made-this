@@ -34,7 +34,7 @@ Except, this wasn't exactly how my project was copied...
 
 The repo I found had (near) identical source code to what was in my repo, except all the information that identified me as the author was removed.
 
-The plagiarizing developer had stripped out:
+The plagiarizing developer had downloaded my repo as a zip file and stripped out:
 
 1. Author tags I left at the top of the source code
 2. MIT license in my name
@@ -42,7 +42,11 @@ The plagiarizing developer had stripped out:
 
 Additionally, she had replaced every instance of `shallow-backup` with a cheeky new name, `keepsies`, and swapped in a new ASCII splash graphic. (Hey there, [@gretzky](https://github.com/gretzky), how's it goin'?)
 
-I wrote this script to satirize how commonplace it's become (in my opinion) for developers of all skill levels to steal code from others without attributing it to the real author.
+She then reuploaded my project under a different name onto her personal github profile, hosting my work under her name.
+
+**tl;dr**
+
+In short, I wrote this script to satirize how commonplace it's become (in my opinion) for developers of all skill levels to steal code from others without attributing it to the real author.
 
 ## License(d)
 ---
