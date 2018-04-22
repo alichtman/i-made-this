@@ -1,6 +1,7 @@
 #!/bin/sh
 #
-# Bash script to clone a repo, rename it and push it your github profile.
+# Bash script to clone a repo, rename it and push it your own github
+# profile WITHOUT crediting the original author.
 
 #####
 # User Input for github link and new repo name
@@ -40,5 +41,11 @@ git push -u origin master
 # Celebrate your hard work!
 #####
 
+# ASCII art from: http://ascii.co.uk/art/champagne
+# Is it ironic that I'm crediting my sources in a script satirizing the plagiarism of github repos?
+
 printf "Have a drink or two! You deserve it!\\n"
 printf "        *       *       []\\n         _*    *_       ||\\n        |*|    |*|      ||\\n        |_|    |_|     |  |\\n        \\*/    \\*/     |__|\\n         |      |      |  |\\n        _|_    _|_     |__|"
+
+#
+#
