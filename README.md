@@ -42,6 +42,8 @@ The plagiarizing developer had stripped out:
 
 Additionally, she had replaced every instance of `shallow-backup` with a cheeky new name, `keepsies`, and swapped in a new ASCII splash graphic. (Hey there, [@gretzky](https://github.com/gretzky), how's it goin'?)
 
+I wrote this script to satirize how commonplace it's become (in my opinion) for developers of all skill levels to steal code from others without attributing it to the real author.
+
 ## License(d)
 ---
 
