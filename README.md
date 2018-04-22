@@ -1,7 +1,7 @@
 # git-steal
 ---
 
-`git-steal` is the best way to quickly code and deploy high-quality projects on GitHub.
+`git-steal` is the best way to quickly deploy high-quality projects on GitHub.
 
 Why struggle through learning to code and creating something worthwhile when plenty of people have already done it?
 
