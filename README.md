@@ -3,7 +3,7 @@
 
 `git-steal` is the best way to quickly deploy high-quality projects on GitHub.
 
-Why struggle through learning to code and creating something worthwhile when plenty of people have already done it?
+Why struggle through coding something impressive yourself when plenty of developers have already done it?
 
 **Just copy someone else's code and take credit for it!**
 
