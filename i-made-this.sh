@@ -58,7 +58,7 @@ git push -u origin master
 # Is it ironic that I'm crediting my sources in a script satirizing the plagiarism of github repos?
 
 printf "Have a drink or two! You deserve it!\\n"
-printf "        *       *       []\\n         _*    *_       ||\\n        |*|    |*|      ||\\n        |_|    |_|     |  |\\n        \\*/    \\*/     |__|\\n         |      |      |  |\\n        _|_    _|_     |__|"
+printf "        *       *       []\\n         _*    *_       ||\\n        |*|    |*|      ||\\n        |_|    |_|     |  |\\n        \\*/    \\*/     |__|\\n         |      |      |  |\\n        _|_    _|_     |__|\\n"
 
 #
 #
