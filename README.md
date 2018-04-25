@@ -1,15 +1,15 @@
-# git-steal
+# i-made-this
 ---
 
-`git-steal` is the best way to quickly deploy high-quality projects on GitHub.
+![](img/i-made-this.png)
 
-Why struggle through coding something impressive yourself when plenty of developers have already done it?
+`i-made-this` is the best way to quickly deploy high-quality projects on GitHub.
+
+Why struggle through building something impressive when plenty of developers have already done it?
 
 **Just copy someone else's code and take credit for it!**
 
-Most devs have to go through the entire software development process. This is a long journey (with six whole steps! **SIX!**)
-
-It involves:
+Most devs have to go through the entire software development process. This is a long journey. It involves:
 
 1. Coming up with a good idea.
 2. Planning your implementation.
@@ -18,37 +18,30 @@ It involves:
 5. Refining it to fix any bugs you discover in testing.
 6. Releasing the software, and hoping to be recognized for your hard work and dedication.
 
-With `git-steal`, you can skip directly to step 6!
+With `i-made-this`, you can skip directly to step 6!
 
-## Usage
+**What does it do?**
+
+This script clones an existing github repository, renames it and publishes it to your github profile after removing the git history and license.
+
+### Usage Instructions
 ---
 
-This script was written for purely satirical purposes and should never be used.
+0. Create a new repository on GitHub for your hard work to be hosted in.
+1. Navigate to the local directory you'd like to "build your project" in.
+2. `$ ./i-made-this` and follow the prompts.
 
-## Inspiration
+### Why?
 ---
 
-A few days ago, I found a copy one of my open-source personal projects, [`shallow-backup`](https://www.github.com/alichtman/shallow-backup) on someone else's GitHub profile. Now, this is exactly how the open source community should work! When you find a project you'd like to contribute to, you fork it and open pull requests to the master repo.
+I wrote this script to satirize how commonplace it's become for developers of all skill levels to steal code from others without attributing it to the real author.
 
-Except, this wasn't exactly how my project was copied...
-
-The repo I found had (near) identical source code to what was in my repo, except all the information that identified me as the author was removed.
-
-The plagiarizing developer had downloaded my repo as a zip file and stripped out:
-
-1. Author tags I left at the top of the source code
-2. MIT license in my name
-3. Credit for a block of code written by a good friend of mine
-
-Additionally, she had replaced every instance of `shallow-backup` with a cheeky new name, `keepsies`, and swapped in a new ASCII splash graphic. (Hey there, [@gretzky](https://github.com/gretzky), how's it goin'?)
-
-She then reuploaded my project under a different name onto her personal github profile, hosting my work under her name.
-
-**tl;dr**
-
-In short, I wrote this script to satirize how commonplace it's become (in my opinion) for developers of all skill levels to steal code from others without attributing it to the real author.
-
-## License(d)
+### License(d)
 ---
 
 Ironically.
+
+### Acknowledgements
+---
+
++ Comic by [neodroidcomics](https://nedroidcomics.tumblr.com/post/41879001445/the-internet)

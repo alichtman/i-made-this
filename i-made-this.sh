@@ -15,14 +15,27 @@ printf "\\nStealing:      %s" "$github_url"
 printf "\\nDisguising as: %s\\n\\n"  "$new_name"
 
 #####
-# Clone project and remove .git directory
+# Clone project
 #####
 
 ext=".git"
 github_url=$github_url$ext
 git clone "$github_url" "$new_name"
 cd "$new_name" || exit
+
+#####
+# "Clean" project
+#####
+
 rm -rf .git
+
+if [[ -f license.* ]]; then
+    rm -i license.*
+elif [[ -f LICENSE.* ]]; then
+	rm -i license.*
+elif [[ -f License.* ]]; then
+	rm -i License.*
+fi
 
 #####
 # Push "new" project to Github
