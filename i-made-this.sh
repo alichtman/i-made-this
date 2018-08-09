@@ -59,6 +59,3 @@ git push -u origin master
 
 printf "Have a drink or two! You deserve it!\\n"
 printf "        *       *       []\\n         _*    *_       ||\\n        |*|    |*|      ||\\n        |_|    |_|     |  |\\n        \\*/    \\*/     |__|\\n         |      |      |  |\\n        _|_    _|_     |__|\\n"
-
-#
-#
