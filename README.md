@@ -31,15 +31,10 @@ This script clones an existing github repository, renames it and publishes it to
 1. Navigate to the local directory you'd like to "build your project" in.
 2. `$ ./i-made-this` and follow the prompts.
 
-### Why?
----
-
-I wrote this script to satirize how commonplace it's become for developers of all skill levels to steal code from others without attributing it to the real author.
-
 ### License(d)
 ---
 
-Ironically.
+Ironically, yes.
 
 ### Acknowledgements
 ---
