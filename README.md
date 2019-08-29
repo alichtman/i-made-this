@@ -31,10 +31,29 @@ This script clones an existing github repository, renames it and publishes it to
 1. Navigate to the local directory you'd like to "build your project" in.
 2. `$ ./i-made-this` and follow the prompts.
 
+### Inspiration
+---
+
+A while ago, I found a copy one of my open-source personal projects, [`shallow-backup`](https://www.github.com/alichtman/shallow-backup) on someone else's GitHub profile. Now, this is exactly how the open source community should work, right? When you find a project you'd like to contribute to, you fork it and work on it!
+
+Except, this wasn't exactly how my project was copied...
+
+The repo I found had (near) identical source code to what was in my repo, except all the information that identified me as the author was removed.
+
+The plagiarizing developer had stripped out:
+
+1. Author tags I left at the top of the source code
+2. MIT license in my name
+3. Credit for a block of code written by a [good friend of mine](https://github.com/shobrook)
+
+Additionally, she had replaced every instance of `shallow-backup` with a cheeky new name and swapped in new graphics.
+
+I figured I'd automate some of this process to help out any other _SoFtWaRe EnGiNeErS_ that would like to steal my work in the future.
+
 ### License(d)
 ---
 
-Ironically, yes.
+Ironically, it actually is licensed.
 
 ### Acknowledgements
 ---
