@@ -16,7 +16,7 @@ Most devs have to go through the entire software development process. This is a 
 3. Developing the program.
 4. Testing your code.
 5. Refining it to fix any bugs you discover in testing.
-6. Releasing the software, and hoping to be recognized for your hard work and dedication.
+6. Releasing the software.
 
 With `i-made-this`, you can skip directly to step 6!
 
@@ -34,11 +34,11 @@ This script clones an existing github repository, renames it and publishes it to
 ### Inspiration
 ---
 
-A while ago, I found a copy one of my open-source personal projects, [`shallow-backup`](https://www.github.com/alichtman/shallow-backup) on someone else's GitHub profile. Now, this is exactly how the open source community should work, right? When you find a project you'd like to contribute to, you fork it and work on it!
+I found a copy one of my open-source personal projects, [`shallow-backup`](https://www.github.com/alichtman/shallow-backup), on someone else's GitHub. Now, this is exactly how the open source community should work, right? When you find a project you'd like to contribute to, you fork it and work on it.
 
 Except, this wasn't exactly how my project was copied...
 
-The repo I found had (near) identical source code to what was in my repo, except all the information that identified me as the author was removed.
+The repo I found had near-identical source code to my repo, except all the information that identified me as the author was removed.
 
 The plagiarizing developer had stripped out:
 
@@ -46,9 +46,9 @@ The plagiarizing developer had stripped out:
 2. MIT license in my name
 3. Credit for a block of code written by a [good friend of mine](https://github.com/shobrook)
 
-Additionally, she had replaced every instance of `shallow-backup` with a cheeky new name and swapped in new graphics.
+Additionally, they had replaced every instance of `shallow-backup` with a new name and swapped in new graphics.
 
-I figured I'd automate some of this process to help out any other _SoFtWaRe EnGiNeErS_ that would like to steal my work in the future.
+I figured I could help by automating some of this process.
 
 ### License(d)
 ---
